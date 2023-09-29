@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifd;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 1190px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav>a {
+    padding: 13px;
+    background-color: #0d6efd;
+    width: 78px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    border-style: none;
+    transition: 0.3s;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    background-color: #0957cc;
+    cursor: pointer;
+}
+
+nav>p {
+    font-size: 20px;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+
+nav>p:hover {
+    cursor: pointer;
+}
+
+.ocean_bg_generate {
+    background-image: url(https://picjumbo.com/wp-content/uploads/calm-dark-blue-sea-background-free-photo-2210x1658.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 560px;
+    width: 100%;
+    text-align: center;
+}
+
+.ocean_bg_generate>h1 {
+    color: white;
+    font-size: 40px;
+    padding: 40px;
+    padding-top: 160px;
+    width: 650px;
+    margin: auto;
+}
+
+.ocean_bg_generate>input {
+    width: 410px;
+    height: 55px;
+    border-radius: 6px;
+    border-style: none;
+    margin-top: 2px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.ocean_bg_generate>button {
+    width: 95px;
+    height: 50px;
+    background-color: #0d6dfdb5;
+    padding: 10px;
+    margin-left: 17px;
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.icon_card {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: rgb(249, 245, 245);
+}
+
+.icon_card_div {
+    width: 33%;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.icon_card_div>img {
+    width: 140px;
+}
+
+.icon_card_div>p {
+    padding: 10px 20px;
+    width: 300px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.fully_reponsive_container {
+    width: 100%;
+}
+
+.fully_reponsive_container_div {
+    display: flex;
+    height: 450px;
+}
+
+.fully_reponsive_container_div>img {
+    width: 50%;
+}
+
+.fully_reponsive_container_div_text {
+    width: 50%;
+    text-align: left;
+    padding: 135px;
+}
+
+.fully_reponsive_container_div_text>h2 {
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+.fully_reponsive_container_div_text>p {
+    font-size: 18px;
+    margin: 15px auto;
+}
+
+.what_people_saying {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(249, 245, 245);
+    text-align: center;
+}
+
+.what_people_saying>h2 {
+    padding-top: 140px;
+}
+
+.what_people_saying_div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.what_people_saying_div_text {
+    width: 33%;
+    text-align: center;
+}
+
+.what_people_saying_div_text>img {
+    width: 160px;
+    border-radius: 240px;
+    height: 180px;
+}
+
+.what_people_saying_div_text>p {
+    padding: 7px 15px;
+    width: 320px;
+    margin: auto;
+}
+
+.ocean_bg_ready {
+    background-image: url(https://picjumbo.com/wp-content/uploads/calm-dark-blue-sea-background-free-photo-2210x1658.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.ocean_bg_ready>input {
+    width: 380px;
+    height: 55px;
+    border-radius: 6px;
+    border-style: none;
+    margin-top: 20px;
+    padding: 6px;
+    font-size: 18px;
+}
+
+.ocean_bg_ready>button {
+    width: 95px;
+    height: 50px;
+    background-color: #0d6dfdb5;
+    padding: 10px;
+    margin-left: 17px;
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.ocean_bg_ready>h1 {
+    color: white;
+    padding: 10px;
+    padding-top: 100px;
+    font-size: 34px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.footer_left_div {
+    width: 33%;
+    margin-top: 60px;
+}
+
+.footer_left_div>p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.footer_left_div_text>ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.footer_li {
+    list-style: none;
+}
+
+.footer_icon {
+    width: 37%;
+    text-align: center;
+    padding-top: 60px;
+}
